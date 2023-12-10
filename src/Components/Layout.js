@@ -9,7 +9,6 @@ const Layout = (props) => {
   const addToCart=(user)=>{
     let quantity=1
     const updateItems={...user,quantity:quantity}
-    console.log(user)
     cartCtx.addItem(updateItems)
     
   }
